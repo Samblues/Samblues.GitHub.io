@@ -1,0 +1,166 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+#intro-section {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+
+    html,
+    body,
+    header,
+    #intro-section {
+        height: 100vh;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #563e91 !important;
+    }
+}
+
+.rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+/* Global variables */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+button {
+    padding: 5px 50px 5px 50px;
+    border: 1px solid #808080;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+#links a {
+    bottom: 2px;
+    left: 2px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#links a:hover {
+    color: #000;
+}
+
+/* Instruction screen */
+
+#instruction-view {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+   background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+   background: linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+#instructions {
+    height: 10%;
+}
+
+#instructions h2 {
+    margin: 4px;
+}
+
+#instructions #settings-button {
+    margin: 2px;
+    color: #0a85e9;
+}
+
+/* Settings screen */
+
+#settings-button {
+    cursor: pointer;
+}
+
+#settings {
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 2px;
+}
+
+#settings form {
+    text-align: left;
+}
+
+#settings p {
+    margin: 2px;
+}
+
+#settings form input {
+    margin: 5px 0 0 0;
+}
+
+/* Game view */
+
+#game-view {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+     background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+     background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+     background: linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+#game-view h2 {
+    text-align: center;
+}
+
+#game-view div {
+    background-color: #cc1a15;
+}
+
+#game-view div:hover {
+    cursor: pointer;
+}
+
+/* Game over screen */
+
+#game-over {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#game-over h2 {
+    padding: 2px;
+}
