@@ -165,3 +165,6 @@ button {
 #game-over h2 {
     padding: 2px;
 }
+#padTop {
+  padding-top: 60px;
+}
