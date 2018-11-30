@@ -52,7 +52,7 @@
                             <a class="nav-link" href="#opinions" data-offset="30">Top Tips</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Contact.html" data-offset="90">Contact</a>
+                            <a class="nav-link" href="Contact.php" data-offset="90">Contact</a>
                         </li>
                     </ul>
 
