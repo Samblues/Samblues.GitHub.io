@@ -143,7 +143,7 @@
 
                       <!--Grid column-->
                       <div class="col-md-8 col-xl-9">
-                        <form>
+                        <form class ="contact-form" action="contactForm.php" method="post">
 
                           <!--Grid row-->
                           <div class="row">
@@ -189,12 +189,12 @@
 
                             </div>
                           </div>
+
                           <!--Grid row-->
                           <div class="text-center text-md-left my-4">
                             <button type="submit" name="submit">Send</button>
                           </div>
                         </div>
-
                         </form>
 
                       <!--Grid column-->
