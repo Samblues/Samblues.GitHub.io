@@ -72,9 +72,6 @@
                   <a class="nav-link" href="Gaming.html" data-offset="90">Gaming</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#services" data-offset="90">Sam's Hacks</a>
-              </li>
-              <li class="nav-item">
                   <a class="nav-link" href="#opinions" data-offset="30">Top Tips</a>
               </li>
               <li class="nav-item">
